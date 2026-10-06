@@ -1,0 +1,12 @@
+streamlit>=1.50
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+plotly>=5.20
+feedparser>=6.0
+beautifulsoup4>=4.12
+# --- recommended (semantic pipeline). App falls back gracefully if missing ---
+sentence-transformers>=2.7
+umap-learn>=0.5.5
+# --- optional: LLM topic naming (set ANTHROPIC_API_KEY) ---
+# anthropic>=0.40
