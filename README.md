@@ -60,3 +60,5 @@ Note: the bundled sample data is synthetic (for demo/testing). Use real news for
 ## Tuning tips
 * Too many tiny topics → raise **Min cluster size**; too few / merged → lower it.
 * Lots of noise is normal with HDBSCAN; noise = articles that don't belong to a dense topic.
+
+
